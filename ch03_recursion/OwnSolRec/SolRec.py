@@ -4,7 +4,6 @@
 # Example
 # For example, check the implementation with the following value progression:
 # Input 1 2 3 4 5 6 7 8 fib(n) 1 1 2 3 5 8 13 21
-
 def fib(n):
     if n <= 0:
         raise ValueError('n must be >=1')
